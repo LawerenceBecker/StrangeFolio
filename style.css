@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #2A0012;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.flex {
+    display: flex;
+}
+
+.section {
+    width: 1vw;
+    height: 800px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    display: flex;
+    background-color: #0F0202;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+nav a img {
+    display: block;
+    background-color: #0F0202;
+    transition: transform 300ms 100ms linear;
+}
+
+nav a img:hover {
+    transform: scale(1.2,1.2)
+}
+
+nav a {
+    display: block;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    transition: color 300ms 100ms;
+    background-color: #0F0202;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+#nameSection {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    
+}
+
+#nameContainer {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8vw;
+    height: 6em;
+    background-color: #4F0021;
+    float: left; 
+    width: 455px;
+}
+
+#imageConatiner {
+    margin: 0em 20vw;
+}
+
+#nameTitle {
+    font-size: 5em;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+#aboutMe {
+    background-color: #370118;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    width: 100%;
+}
+
+#descContainer h2 {
+    background-color: #370118;
+    padding: 1em;
+}
+
+#descContainer{
+    width: 35vw;
+    border: 1em solid #4F0021;
+    border-style: inset;
+}
+
+#imageConatiner2 img {
+    background-color: #370118;
+}
+
+#imageConatiner2 {
+    margin: 0em 15vw;
+}
